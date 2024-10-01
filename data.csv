@@ -1,21 +1,24 @@
 name,ring,quadrant,status,description
 Babel,adopt,tools,No Change,
-Consul,trial,tools,New ,"Consul is a service networking solution to automate network configurations, discover services, and enable secure connectivity across any cloud or runtime."
-Grafana,trial,tools,New ,Grafana is the open source analytics & monitoring solution for every database.
-Let's Encrypt,adopt,tools,No Change,Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge.
-OWASP Dependency-Check,assess,tools,New ,
-Terraform,trial,tools,New ,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud.
+Grafana,trial,tools,New ,Grafana is the open source analytics & monitoring solution for every database
+Let's Encrypt,adopt,tools,No Change,Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge. Go to version for us right now
+OWASP Dependency-Check,assess,tools,New ,Assess possible tools. Clients start to demand this.
+OWASP ASVS,assess,techniques,No Change,
+Terraform,trial,tools,New ,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud. 
+Terragrunt,trial,tools,New ,Orchestration tool for Terraform.
+ArgoCD,trial,tools,New ,Gitops to automatically deploy our apps into Kubernetes.
 Webpack,hold,tools,No Change,"Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
 Vite,assess,tools,New ,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
 axios,adopt,tools,New ,What is Axios? Axios is a promise-based HTTP Client for node.js and the browser.
 Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines should be done with Gitlab
+Renovate,trial,tools,No Change,
 Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building pipelines
 React.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
 Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have freedom of choice in the Backend. Will still do it if clients require it.
 Redux,adopt,languages & frameworks,No Change,
 React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
 React Next,assess,languages & frameworks,New ,Evaluate
-Vue.js,assess,languages & frameworks,No Change,
+Vue.js,assess,languages & frameworks,No Change,One of our main choices for Frontend Dev
 Vue Nuxt,trial,languages & frameworks,New ,We want to give this a try
 Spring Boot,assess,languages & frameworks,New ,Might help is with certain industries/clients
 Quarkus,assess,languages & frameworks,New ,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
@@ -23,32 +26,81 @@ Enzyme,trial,languages & frameworks,New ,We need to test this
 ECMAScript 2017,assess,languages & frameworks,No Change,Assess this 
 GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
-Recharts,assess,languages & frameworks,No Change,
-Docker,adopt,platforms,No Change,
-Linux security modules,adopt,platforms,No Change,
-Auth0x,trial,platforms,No Change,
-AWS Lambda,trial,platforms,No Change,
-Kubernetes,trial,platforms,No Change,
-Rancher,trial,platforms,No Change,
-.NET Core,assess,platforms,No Change,
-Electron,assess,platforms,No Change,
-CMS as a platform,hold,platforms,No Change,
-Consumer-driven contract testing,adopt,techniques,No Change,
-Pipelines as code,adopt,techniques,No Change,
-Threat Modeling,adopt,techniques,No Change,
-Bug bounties,trial,techniques,No Change,
-Data Lake,trial,techniques,No Change,
-Hosting PII data in the EU,trial,techniques,No Change,
-Lightweight Architecture Decision Records,trial,techniques,No Change,
-Reactive architectures,trial,techniques,No Change,
-Serverless architecture,trial,techniques,No Change,
-Client-directed query,assess,techniques,No Change,
-Container security scanning,assess,techniques,No Change,
-Content Security Policies,assess,techniques,No Change,
-Differential privacy,assess,techniques,No Change,
-Micro frontends,assess,techniques,No Change,
-OWASP ASVS,assess,techniques,No Change,
-Unikernels,assess,techniques,No Change,
-Anemic REST,hold,techniques,No Change,
-Big Data envy,hold,techniques,No Change,
-Renovate,trial,tools,No Change,
+Docker,adopt,platforms,No Change,Go to solution to containerize our applications
+Kubernetes,adopt,platforms,Moved In,Go to version for our containerized environments/apps
+Rancher,trial,platforms,No Change,"Rancher, the open-source multi-cluster orchestration platform, lets operations teams deploy, manage and secure enterprise Kubernetes."
+.NET Core,assess,platforms,No Change,Might help is with certain industries/clients
+Consumer-driven contract testing,assess,techniques,No Change,Assess this 
+Threat Modeling,assess,techniques,No Change,
+Lightweight Architecture Decision Records,adopt,techniques,No Change,Need to make this the standard for chapter and dev circle decisions. Might want to also propose this for larger clients
+Reactive architectures,assess,techniques,No Change,
+Serverless architecture,assess,techniques,No Change,
+Container security scanning,adopt,techniques,New ,
+Content Security Policies,assess,techniques,New ,
+Micro frontends,assess,techniques,New ,
+Rust,trial,languages & frameworks,New ,New go to backend language for faster and more efficient and secure Backends
+PHP,adopt,languages & frameworks,No Change,Still a good market for us
+Laravael,adopt,languages & frameworks,No Change,Go to PHP Framework
+Axum,trial,languages & frameworks,New ,Rust Web framework 
+Redis,adopt,languages & frameworks,No Change,Go to technology to cache data
+MariaDB,adopt,languages & frameworks,No Change,Replacement for MySQL
+MySQL,hold,languages & frameworks,Moved Out,Use MariaDB instead
+Postgres,adopt,languages & frameworks,No Change,Favorite choice with regards to DB
+ArangoDB,hold,languages & frameworks,No Change,Had to use this within one of our projects and we don't see this fitting our usual requirements and overall direction
+MSSQL,hold,languages & frameworks,No Change,We don't want to actively use this anymore
+DDev,adopt,tools,No Change,Go to tool to handle our PHP based projects
+Cargo,trial,tools,New ,
+Taskfiles,adopt,tools,No Change,Our default approach to automate local development environment (setup/build...)
+Atlas Router,adopt,tools,No Change,We want to opensource this
+contentful rs,adopt,tools,New ,We want to opensource this. This library is an abstraction layer to access contentful with a Rust
+Python,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
+Golang,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
+RabbitMQ,assess,platforms,New ,
+Kafka,assess,platforms,New ,
+AWS SQS,assess,platforms,New ,
+AWS SNS,assess,platforms,New ,
+Storybook,adopt,platforms,New ,
+Typescript,adopt,languages & frameworks,No Change,
+NPM,adopt,tools,No Change,
+PNPM,assess,tools,New ,
+Angular,hold,languages & frameworks,No Change,We don't want to focus on this.
+Nest,hold,languages & frameworks,No Change,We don't want to focus on this.
+Svelte,assess,languages & frameworks,New ,
+SvelteKit,assess,languages & frameworks,New ,
+GCP,assess,platforms,New ,
+Azure,assess,platforms,New ,
+AWS CDK,assess,platforms,New ,
+CloudFormation,assess,platforms,New ,
+Github Enterprise,assess,platforms,New ,Future alternative for Gitlab?
+Jaeger,assess,platforms,New ,
+Prometheus,assess,platforms,New ,
+Open Telemetry,assess,platforms,New ,
+CloudWatch,assess,platforms,New ,
+Zabbix,assess,platforms,New ,
+Grafana Loki,assess,platforms,New ,
+AWS X-Ray,assess,platforms,New ,
+Ansible,adopt,tools,No Change,
+Cog,trial,tools,New ,
+Cypress,adopt,tools,New ,
+QA Audits,trial,techniques,New ,
+Testing as a service,trial,techniques,New ,
+Playwright,trial,tools,New ,
+ElasticSearch,trial,tools,New ,
+DORA,assess,techniques,New ,Dora Metrics to measure our effectiveness
+AAF,assess,techniques,New ,Establishing an Architecture Advisory Forum to increase adoption rate across our chapters
+DDD,assess,techniques,New ,Domain Driven Design as a consulting service for projects
+C4 with Structerizr,trial,tools,New ,C4 Documentation 
+Arc42,assess,techniques,New ,
+SemVer,trial,techniques,New ,
+Conventional Commits,trial,techniques,New ,
+Markdown,adopt,tools,No Change,
+Github Copilot,trial,tools,Moved In,Scale out for effective trial across engineers
+TDD,trial,techniques,New ,
+Mermaid,trial,tools,New ,
+AsciiDoc,trial,tools,New ,
+Trivy,trial,tools,New ,
+SonarQube,trial,tools,New ,
+"Gen AI (ChatGPT, Claude)",assess,tools,New ,Using it in small scale/small context
+Solr,assess,tools,New ,
+Typo3,adopt,platforms,No Change,
+Shopware,adopt,platforms,No Change,
