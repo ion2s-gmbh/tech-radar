@@ -1,0 +1,54 @@
+name,ring,quadrant,status,description
+Babel,adopt,tools,No Change,
+Consul,trial,tools,New ,"Consul is a service networking solution to automate network configurations, discover services, and enable secure connectivity across any cloud or runtime."
+Grafana,trial,tools,New ,Grafana is the open source analytics & monitoring solution for every database.
+Let's Encrypt,adopt,tools,No Change,Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge.
+OWASP Dependency-Check,assess,tools,New ,
+Terraform,trial,tools,New ,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud.
+Webpack,hold,tools,No Change,"Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
+Vite,assess,tools,New ,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
+axios,adopt,tools,New ,What is Axios? Axios is a promise-based HTTP Client for node.js and the browser.
+Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines should be done with Gitlab
+Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building pipelines
+React.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
+Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have freedom of choice in the Backend. Will still do it if clients require it.
+Redux,adopt,languages & frameworks,No Change,
+React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
+React Next,assess,languages & frameworks,New ,Evaluate
+Vue.js,assess,languages & frameworks,No Change,
+Vue Nuxt,trial,languages & frameworks,New ,We want to give this a try
+Spring Boot,assess,languages & frameworks,New ,Might help is with certain industries/clients
+Quarkus,assess,languages & frameworks,New ,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
+Enzyme,trial,languages & frameworks,New ,We need to test this
+ECMAScript 2017,assess,languages & frameworks,No Change,Assess this 
+GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
+gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
+Recharts,assess,languages & frameworks,No Change,
+Docker,adopt,platforms,No Change,
+Linux security modules,adopt,platforms,No Change,
+Auth0x,trial,platforms,No Change,
+AWS Lambda,trial,platforms,No Change,
+Kubernetes,trial,platforms,No Change,
+Rancher,trial,platforms,No Change,
+.NET Core,assess,platforms,No Change,
+Electron,assess,platforms,No Change,
+CMS as a platform,hold,platforms,No Change,
+Consumer-driven contract testing,adopt,techniques,No Change,
+Pipelines as code,adopt,techniques,No Change,
+Threat Modeling,adopt,techniques,No Change,
+Bug bounties,trial,techniques,No Change,
+Data Lake,trial,techniques,No Change,
+Hosting PII data in the EU,trial,techniques,No Change,
+Lightweight Architecture Decision Records,trial,techniques,No Change,
+Reactive architectures,trial,techniques,No Change,
+Serverless architecture,trial,techniques,No Change,
+Client-directed query,assess,techniques,No Change,
+Container security scanning,assess,techniques,No Change,
+Content Security Policies,assess,techniques,No Change,
+Differential privacy,assess,techniques,No Change,
+Micro frontends,assess,techniques,No Change,
+OWASP ASVS,assess,techniques,No Change,
+Unikernels,assess,techniques,No Change,
+Anemic REST,hold,techniques,No Change,
+Big Data envy,hold,techniques,No Change,
+Renovate,trial,tools,No Change,
