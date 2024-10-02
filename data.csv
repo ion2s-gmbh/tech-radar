@@ -18,7 +18,7 @@ Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have free
 Redux,adopt,languages & frameworks,No Change,
 React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
 React Next,assess,languages & frameworks,New ,Evaluate
-Vue.js,assess,languages & frameworks,No Change,One of our main choices for Frontend Dev
+Vue.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev
 Vue Nuxt,trial,languages & frameworks,New ,We want to give this a try
 Spring Boot,assess,languages & frameworks,New ,Might help is with certain industries/clients
 Quarkus,assess,languages & frameworks,New ,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
