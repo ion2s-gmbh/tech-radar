@@ -17,7 +17,7 @@ React.js,adopt,languages & frameworks,No Change,One of our main choices for Fron
 Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have freedom of choice in the Backend. Will still do it if clients require it.
 Redux,adopt,languages & frameworks,No Change,Global state handling for React based applications.
 React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development covering the full stack of development.
-React Next,assess,languages & frameworks,New ,We want to evaluate this.
+React Next,trial,languages & frameworks,New , We are using this with one of our newer clients
 Vue.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev. Being used in our projects already.
 Vue Nuxt,trial,languages & frameworks,New ,We want to try this out as soon as possible. Similar to React Remix this would help us to cover a full stack frontend development approach.
 Spring Boot,assess,languages & frameworks,New ,Might help is with certain industries/clients
@@ -36,7 +36,7 @@ Container security scanning,adopt,techniques,New ,
 Micro frontends,trial,techniques,New ,Would like to assess this within a matching project.
 Rust,trial,languages & frameworks,New ,New go to backend language for faster and more efficient and secure Backends
 PHP,adopt,languages & frameworks,No Change,Still active and buzzing in our verticals.
-Laravael,adopt,languages & frameworks,No Change,Go to PHP Framework for us
+Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
 Symfony ,hold,languages & frameworks,Moved Out,We prefer using Symfony for new projects.
 Axum,trial,languages & frameworks,New ,Rust Web framework 
 Redis,adopt,languages & frameworks,No Change,Go to technology to cache data
@@ -98,6 +98,7 @@ AsciiDoc,trial,tools,New ,More trial in projects needed
 Trivy,trial,tools,New ,Trial started for one of our bigger projects
 SonarQube,trial,tools,New ,"We want to give this a more thorough try with regards to code complexity, technical debt and security analysis"
 "Gen AI (ChatGPT, Claude)",assess,tools,New ,Using it in small scale/small context. Github Copilot adoption started. 
-Solr,assess,tools,New ,We would like to assess this
+Solr,adopt,tools,New ,We are using this since a couple of years
 Typo3,adopt,platforms,No Change,One of our main offerings with regards to CMS
 Shopware,adopt,platforms,No Change,One of our main offerings with regards to shop systems
+AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
