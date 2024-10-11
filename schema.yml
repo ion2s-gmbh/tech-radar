@@ -1,0 +1,27 @@
+name: Techradar CSV Schema
+
+csv:
+  delimiter: ','
+
+columns:
+  - name: name
+    rules:
+      not_empty: true
+    aggregate_rules:
+      is_unique: true
+
+  - name: ring
+    rules:
+      allow_values: [adopt, trial, assess, hold]
+
+  - name: quadrant
+    rules:
+      allow_values: [techniques, platforms, tools, languages & frameworks]
+
+  - name: status
+    rules:
+      allow_values: [New, Moved In, No Change, Moved Out]
+
+  - name: description
+    rules:
+      not_empty: true
