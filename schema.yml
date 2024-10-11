@@ -1,5 +1,7 @@
 name: Techradar CSV Schema
 
+filename_pattern: /data.csv/
+
 csv:
   delimiter: ','
 
