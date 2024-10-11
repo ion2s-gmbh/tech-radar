@@ -1,0 +1,22 @@
+name: pr
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: CSV Lint
+        uses: jbzoo/csv-blueprint@master
+        with:
+          csv: data.csv
+          schema: schema.yml
+          report: github
