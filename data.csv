@@ -25,8 +25,9 @@ Quarkus,assess,languages & frameworks,New,"Modern alternative to Spring Boot, do
 GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 Docker,adopt,platforms,No Change,Go to solution to containerize our applications
-Kubernetes,adopt,platforms,Moved In,Go to version for our containerized environments/apps
+Kubernetes,adopt,platforms,Moved In,Open Source container orchestration plattform we use in different distributions from vanilla to Rancher and AWS-EKS.
 Rancher,trial,platforms,No Change,"Rancher, the open-source multi-cluster orchestration platform, lets operations teams deploy, manage and secure enterprise Kubernetes. We are using it for certain projects"
+Helm,adopt,tools,No Change,The package manager for Kubernetes
 .NET Core,assess,platforms,No Change,Might help is with certain industries/clients
 Consumer-driven contract testing,assess,techniques,No Change,We might want to assess this
 Lightweight Architecture Decision Records,adopt,techniques,No Change,Need to make this the standard for chapter and dev circle decisions. Might want to also propose this for larger clients
