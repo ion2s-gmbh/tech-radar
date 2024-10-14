@@ -1,15 +1,15 @@
 name,ring,quadrant,status,description
-Babel,adopt,tools,No Change,
-Grafana,trial,tools,New ,Grafana is the open source analytics & monitoring solution for every database
+Babel,adopt,tools,No Change,The compiler for next generation JavaScript
+Grafana,trial,tools,New,Grafana is the open source analytics & monitoring solution for every database
 Let's Encrypt,adopt,tools,No Change,Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge. Go to version for us right now
-OWASP Dependency-Check,assess,tools,New ,We need to assess possible tools. Clients start to demand this.
+OWASP Dependency-Check,assess,tools,New,We need to assess possible tools. Clients start to demand this.
 OWASP ASVS,assess,techniques,No Change,We need to assess possible tools. Clients start to demand this.
-Terraform,trial,tools,New ,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud. It's a common industry standard and we are leveraging it in several projects.
-Terragrunt,trial,tools,New ,Orchestration tool for Terraform. Enhances Terraform in a way which helps us to be more efficient with our templates.
-ArgoCD,trial,tools,New ,Gitops based approach to automatically deploy our apps into Kubernetes. We started to use this with one of our clients are are so far happy with it.
+Terraform,trial,tools,New,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud. It's a common industry standard and we are leveraging it in several projects.
+Terragrunt,trial,tools,New,Orchestration tool for Terraform. Enhances Terraform in a way which helps us to be more efficient with our templates.
+ArgoCD,trial,tools,New,Gitops based approach to automatically deploy our apps into Kubernetes. We started to use this with one of our clients are are so far happy with it.
 Webpack,hold,tools,No Change,"Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
-Vite,assess,tools,New ,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
-axios,adopt,tools,New , Axios is a promise-based HTTP Client for node.js and the browser. It's a new common library being used in the industry.
+Vite,assess,tools,New,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
+axios,adopt,tools,New, Axios is a promise-based HTTP Client for node.js and the browser. It's a new common library being used in the industry.
 Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines should be done with Gitlab
 Renovate,trial,tools,No Change,Automation to keep our dependencies up to date. We started to use it for a variety of repositories.
 Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building and running pipelines
@@ -17,11 +17,11 @@ React.js,adopt,languages & frameworks,No Change,One of our main choices for Fron
 Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have freedom of choice in the Backend. Will still do it if clients require it.
 Redux,adopt,languages & frameworks,No Change,Global state handling for React based applications.
 React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development covering the full stack of development.
-React Next,trial,languages & frameworks,New , We are using this with one of our newer clients
+React Next,trial,languages & frameworks,New, We are using this with one of our newer clients
 Vue.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev. Being used in our projects already.
-Vue Nuxt,trial,languages & frameworks,New ,We want to try this out as soon as possible. Similar to React Remix this would help us to cover a full stack frontend development approach.
-Spring Boot,assess,languages & frameworks,New ,Might help is with certain industries/clients
-Quarkus,assess,languages & frameworks,New ,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
+Vue Nuxt,trial,languages & frameworks,New,We want to try this out as soon as possible. Similar to React Remix this would help us to cover a full stack frontend development approach.
+Spring Boot,assess,languages & frameworks,New,Might help is with certain industries/clients
+Quarkus,assess,languages & frameworks,New,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
 GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 Docker,adopt,platforms,No Change,Go to solution to containerize our applications
@@ -32,13 +32,13 @@ Consumer-driven contract testing,assess,techniques,No Change,We might want to as
 Lightweight Architecture Decision Records,adopt,techniques,No Change,Need to make this the standard for chapter and dev circle decisions. Might want to also propose this for larger clients
 Reactive architectures,trial,techniques,No Change,Need a matching project to go into a trial phase
 Serverless architecture,trial,techniques,No Change,Need a matching project to go into a trial phase
-Container security scanning,adopt,techniques,New ,
-Micro frontends,trial,techniques,New ,Would like to assess this within a matching project.
-Rust,trial,languages & frameworks,New ,New go to backend language for faster and more efficient and secure Backends
+Container security scanning,adopt,techniques,New,Automatically check containerised software for security vulnerabilities 
+Micro frontends,trial,techniques,New,Would like to assess this within a matching project.
+Rust,trial,languages & frameworks,New,New go to backend language for faster and more efficient and secure Backends
 PHP,adopt,languages & frameworks,No Change,Still active and buzzing in our verticals.
 Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
 Symfony ,hold,languages & frameworks,Moved Out,We prefer using Symfony for new projects.
-Axum,trial,languages & frameworks,New ,Rust Web framework 
+Axum,trial,languages & frameworks,New,Rust Web framework 
 Redis,adopt,languages & frameworks,No Change,Go to technology to cache data
 MariaDB,adopt,languages & frameworks,No Change,Replacement for MySQL
 MySQL,hold,languages & frameworks,Moved Out,Use MariaDB instead
@@ -46,59 +46,59 @@ Postgres,adopt,languages & frameworks,No Change,Favorite choice with regards to 
 ArangoDB,hold,languages & frameworks,No Change,Had to use this within one of our projects and we don't see this fitting our usual requirements and overall direction
 MSSQL,hold,languages & frameworks,No Change,We don't want to actively use this anymore
 DDev,adopt,tools,No Change,Go to tool to handle our PHP based projects/dev environments
-Cargo,trial,tools,New ,Our preferred Rust package manager
+Cargo,trial,tools,New,Our preferred Rust package manager
 Taskfiles,adopt,tools,No Change,Our default approach to automate local development environment (setup/build...)
 Atlas Router,adopt,tools,No Change,We want to opensource this
-contentful rs,adopt,tools,New ,We want to opensource this. This library is an abstraction layer to access contentful with a Rust
+contentful rs,adopt,tools,New,We want to opensource this. This library is an abstraction layer to access contentful with a Rust
 Python,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
 Golang,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
-RabbitMQ,trial,platforms,New ,We would like to try this within the context of matching project
-Kafka,trial,platforms,New ,"Being used in one of our projects, we would like to give this more attention at some point"
-AWS SQS,assess,platforms,New ,Want to assess this for futurue opportunities 
-AWS SNS,assess,platforms,New ,Want to assess this for futurue opportunities 
-Storybook,adopt,platforms,New ,Go to platform to host components
+RabbitMQ,trial,platforms,New,We would like to try this within the context of matching project
+Kafka,trial,platforms,New,"Being used in one of our projects, we would like to give this more attention at some point"
+AWS SQS,assess,platforms,New,Want to assess this for futurue opportunities 
+AWS SNS,assess,platforms,New,Want to assess this for futurue opportunities 
+Storybook,adopt,platforms,New,Go to platform to host components
 Typescript,adopt,languages & frameworks,No Change,Preferrable usage in all our JS based codebases
 NPM,adopt,tools,No Change,Current go to tool to handle JS packages
-PNPM,assess,tools,New ,We would like to assess this in a more detailed way
+PNPM,assess,tools,New,We would like to assess this in a more detailed way
 Angular,hold,languages & frameworks,No Change,We don't want to focus on this.
 Nest,hold,languages & frameworks,No Change,We don't want to focus on this.
-Svelte,assess,languages & frameworks,New ,We would like to assess this
-SvelteKit,assess,languages & frameworks,New ,We would like to assess this
-GCP,assess,platforms,New ,We would like to assess this
-Azure,assess,platforms,New ,We would like to assess this
-AWS CDK,assess,platforms,New ,We would like to assess this
-CloudFormation,assess,platforms,New ,We would like to assess this
-Github Enterprise,assess,platforms,New ,Future alternative for Gitlab? Detailed assessment needed
-Jaeger,assess,platforms,New ,We would like to assess this.
-Prometheus,trial,platforms,New ,Planned trial for one of our clients
-Open Telemetry,trial,platforms,New ,Planned trial for one of our clients
-CloudWatch,trial,platforms,New ,Planned trial for one of our clients
-Zabbix,adopt,platforms,New ,Started to see this as the new standard for one of our verticals
-Grafana Loki,assess,platforms,New ,We would like to assess this
-AWS X-Ray,assess,platforms,New ,We would like to assess this
+Svelte,assess,languages & frameworks,New,We would like to assess this
+SvelteKit,assess,languages & frameworks,New,We would like to assess this
+GCP,assess,platforms,New,We would like to assess this
+Azure,assess,platforms,New,We would like to assess this
+AWS CDK,assess,platforms,New,We would like to assess this
+CloudFormation,assess,platforms,New,We would like to assess this
+Github Enterprise,assess,platforms,New,Future alternative for Gitlab? Detailed assessment needed
+Jaeger,assess,platforms,New,We would like to assess this.
+Prometheus,trial,platforms,New,Planned trial for one of our clients
+Open Telemetry,trial,platforms,New,Planned trial for one of our clients
+CloudWatch,trial,platforms,New,Planned trial for one of our clients
+Zabbix,adopt,platforms,New,Started to see this as the new standard for one of our verticals
+Grafana Loki,assess,platforms,New,We would like to assess this
+AWS X-Ray,assess,platforms,New,We would like to assess this
 Ansible,adopt,tools,No Change,Industry standard and go to tooling in many scenarios
-Cog,trial,tools,New ,
-Cypress,adopt,tools,New ,Part of our standard approach/offering for test automation
-QA Audits,trial,techniques,New ,We would like to make this one of our offerings
-Testing as a service,trial,techniques,New ,We would like to make this one of our offerings
-Playwright,trial,tools,New ,Part of our standard approach/offering for test automation
-ElasticSearch,trial,tools,New ,Need a more detailed trial
-DORA,assess,techniques,New ,Dora Metrics to measure our effectiveness
-AAF,assess,techniques,New ,Establishing an Architecture Advisory Forum to increase adoption rate across our chapters
-DDD,assess,techniques,New ,Domain Driven Design as a consulting service for projects
-C4 with Structerizr,trial,tools,New ,C4 Documentation as the new standard for our bigger projects
-Arc42,assess,techniques,New ,We would like to assess this
+Cog,trial,tools,New,general purpose UI prototyping
+Cypress,adopt,tools,New,Part of our standard approach/offering for test automation
+QA Audits,trial,techniques,New,We would like to make this one of our offerings
+Testing as a service,trial,techniques,New,We would like to make this one of our offerings
+Playwright,trial,tools,New,Part of our standard approach/offering for test automation
+ElasticSearch,trial,tools,New,Need a more detailed trial
+DORA,assess,techniques,New,Dora Metrics to measure our effectiveness
+AAF,assess,techniques,New,Establishing an Architecture Advisory Forum to increase adoption rate across our chapters
+DDD,assess,techniques,New,Domain Driven Design as a consulting service for projects
+C4 with Structerizr,trial,tools,New,C4 Documentation as the new standard for our bigger projects
+Arc42,assess,techniques,New,We would like to assess this
 SemVer,adopt,techniques,Moved In,One of our new standards for a cleaner and automated version management of our code bases
 Conventional Commits,adopt,techniques,Moved In,One of our new standards for a cleaner and automated version management of our code bases
 Markdown,adopt,tools,No Change,Go to documentation format for our engineers
 Github Copilot,trial,tools,Moved In,Scale out for effective trial across engineers
-TDD,trial,techniques,New ,We want to make this a bigger habbit for us and our projects
-Mermaid,trial,tools,New ,More trial in projects needed
-AsciiDoc,trial,tools,New ,More trial in projects needed
-Trivy,trial,tools,New ,Trial started for one of our bigger projects
-SonarQube,trial,tools,New ,"We want to give this a more thorough try with regards to code complexity, technical debt and security analysis"
-"Gen AI (ChatGPT, Claude)",assess,tools,New ,Using it in small scale/small context. Github Copilot adoption started. 
-Solr,adopt,tools,New ,We are using this since a couple of years
+TDD,trial,techniques,New,We want to make this a bigger habbit for us and our projects
+Mermaid,trial,tools,New,More trial in projects needed
+AsciiDoc,trial,tools,New,More trial in projects needed
+Trivy,trial,tools,New,Trial started for one of our bigger projects
+SonarQube,trial,tools,New,"We want to give this a more thorough try with regards to code complexity, technical debt and security analysis"
+"Gen AI (ChatGPT, Claude)",assess,tools,New,Using it in small scale/small context. Github Copilot adoption started. 
+Solr,adopt,tools,New,We are using this since a couple of years
 Typo3,adopt,platforms,No Change,One of our main offerings with regards to CMS
 Shopware,adopt,platforms,No Change,One of our main offerings with regards to shop systems
 AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
