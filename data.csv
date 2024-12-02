@@ -103,3 +103,29 @@ Solr,adopt,tools,New,We are using this since a couple of years
 Typo3,adopt,platforms,No Change,One of our main offerings with regards to CMS
 Shopware,adopt,platforms,No Change,One of our main offerings with regards to shop systems
 AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
+Xray,adopt,tools,No Change,A test management tool integrated with Jira for planning, executing, and reporting on test cases
+ISTQB Tester,adopt,techniques,No Change,Certification providing foundational knowledge in software testing principles and processes
+ISTQB Test Management,adopt,techniques,No Change,Focuses on strategic planning and oversight of software testing activities
+ISTQB Test Analyst,adopt,techniques,No Change,Certification covering test design, execution, and reporting based on system requirements
+ISO 29119 Testing,adopt,techniques,No Change,A standardized approach to software testing processes and documentation
+ISO 27001 IT Security,adopt,techniques,New,A framework for managing information security risks systematically
+ISO 25010 System and software quality models,adopt,techniques,No Change,Defines quality characteristics like usability, reliability, and maintainability in software
+Penetration Testing,adopt,techniques,No Change,Security testing to identify and exploit vulnerabilities in systems
+Performance Testing,adopt,techniques,No Change,Assessing a system’s responsiveness, stability, and scalability under varying workloads
+Use Case Testing,adopt,techniques,No Change,Validates system behavior by executing real-world scenarios
+Explorative Testing,adopt,techniques,No Change,An informal, dynamic approach where testers actively explore the software to find defects
+Checklist based Testing,adopt,techniques,No Change,Using pre-defined checklists to systematically verify system functionality
+Javascript,adopt,languages & frameworks,No Change,A versatile programming language primarily used for interactive web development
+Tailwind.css,adopt,languages & frameworks,No Change,A utility-first CSS framework for building custom designs efficiently
+Alpine.js,adopt,languages & frameworks,No Change,A lightweight JavaScript framework for adding interactivity to HTML
+Livewire,adopt,languages & frameworks,No Change,A Laravel framework for building reactive, dynamic web applications with minimal JavaScript
+Filament,assess,languages & frameworks,No Change,A framework for creating admin dashboards and management panels in Laravel
+CSS,adopt,languages & frameworks,No Change,A style sheet language used to design the layout and appearance of HTML elements
+SCSS,adopt,languages & frameworks,No Change,A CSS preprocessor adding variables, nested rules, and functions for maintainable styles
+ChakraUI,trial,languages & frameworks,No Change,A component library for React, offering accessible and customizable UI elements
+Prisma ORM,assess,languages & frameworks,No Change,A modern ORM for Node.js and TypeScript that simplifies database management
+Quasar,trial,languages & frameworks,No Change,A Vue.js framework for building responsive, high-performance web and mobile applications
+Git,adopt,tools,No Change,A version control system for tracking code changes and collaborating in software projects
+Apache,adopt,platforms,No Change,A widely used open-source web server software
+Nginx,adopt,platforms,No Change,A high-performance web server and reverse proxy, often used for load balancing
+Phing,adopt,tools,No Change,A PHP build tool based on Apache Ant for automating development workflows
