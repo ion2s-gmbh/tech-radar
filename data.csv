@@ -103,7 +103,7 @@ Solr,adopt,tools,New,We are using this since a couple of years
 Typo3,adopt,platforms,No Change,One of our main offerings with regards to CMS
 Shopware,adopt,platforms,No Change,One of our main offerings with regards to shop systems
 AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
-Xray,adopt,tools,No Change,A test management tool integrated with Jira for planning, executing, and reporting on test cases
+Xray,adopt,tools,No Change,"A test management tool integrated with Jira for planning, executing, and reporting on test cases"
 ISTQB Tester,adopt,techniques,No Change,Certification providing foundational knowledge in software testing principles and processes
 ISTQB Test Management,adopt,techniques,No Change,Focuses on strategic planning and oversight of software testing activities
 ISTQB Test Analyst,adopt,techniques,No Change,Certification covering test design, execution, and reporting based on system requirements
