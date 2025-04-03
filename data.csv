@@ -14,7 +14,6 @@ Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from 
 Renovate,trial,tools,No Change,Automation to keep our dependencies up to date. We started to use it for a variety of repositories.
 Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building and running pipelines
 React.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development. 
-Node,hold,languages & frameworks,Moved Out,Not a priority for us if we have freedom of choice in the Backend. Will still do it if clients require it.
 Redux,adopt,languages & frameworks,No Change,Global state handling for React based applications.
 React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development covering the full stack of development.
 React Next,trial,languages & frameworks,New, We are using this with one of our newer clients
@@ -35,7 +34,7 @@ Reactive architectures,trial,techniques,No Change,Need a matching project to go 
 Serverless architecture,trial,techniques,No Change,Need a matching project to go into a trial phase
 Container security scanning,adopt,techniques,New,Automatically check containerised software for security vulnerabilities 
 Micro frontends,trial,techniques,New,Would like to assess this within a matching project.
-Rust,trial,languages & frameworks,New,New go to backend language for faster and more efficient and secure Backends
+Rust,adopt,languages & frameworks,New,"New go to backend language for faster and more efficient and secure Backends. Clients might not be willing to invest into it yet but there are use cases in which we would pitch Rust over any other language. It's overall a very trending and promising language so we stay invested."
 PHP,adopt,languages & frameworks,No Change,Still active and buzzing in our verticals.
 Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
 Symfony ,hold,languages & frameworks,Moved Out,We prefer using Symfony for new projects.
@@ -134,3 +133,5 @@ Contentful,trial,platforms,Moved In, "We started using it for some of our projec
 Strapi,assess,platforms,New, "We consider this as an alternative to Contentful. A more detailed assessment will be part of new projects which we will be working on"
 Builder.io,assess,platforms,New, "A solid website builder. We need to more closely assess this."
 Webflow,hold,platforms,Moved Out, "Failed during our trial stage, it has a questionable pricing model and bad developer experience."
+NodeJS,Adopt,languages & frameworks,Moved In,"Solid foundation for all verticals. It's a popular choice and the foundation for the majority of BFFs."
+Java,Adopt,languages & frameworks,Moved In,"High in demand especially in the enterprise business. It's widely in use in our core markets. The language continously evolved and has one of the best open source communities and library support in the market"
