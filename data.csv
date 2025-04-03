@@ -99,7 +99,7 @@ Trivy,trial,tools,New,Trial started for one of our bigger projects
 SonarQube,trial,tools,New,"We want to give this a more thorough try with regards to code complexity, technical debt and security analysis"
 "Gen AI (ChatGPT, Claude)",assess,tools,New,Using it in small scale/small context. Github Copilot adoption started. 
 Solr,adopt,tools,New,We are using this since a couple of years
-Typo3,adopt,platforms,No Change,"Currently our first choice for the majority of small to medium businesses as well es government implementations. It has certain limitations with regards to a modern CMS. This includes downsides with regards to usage as a headless CMS and more complicated approach to have it scalable" 
+Typo3,adopt,platforms,No Change,"Currently our first choice for the majority of small to medium businesses as well es government implementations. It has certain limitations with regards to a modern CMS. This includes downsides with regards to usage as a headless CMS and more complicated approach to have it scalable"
 Shopware,adopt,platforms,No Change,"One of our main offerings with regards to shop systems. It's widely adopted and has many benefits for small, medium and big clients. The plugin store offers more extensions and also allows us to sell our own plugins. Shopware is build for customization and therefore a better choice for an agency use case."
 AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
 Xray,adopt,tools,No Change,"A test management tool integrated with Jira for planning, executing, and reporting on test cases"
