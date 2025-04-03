@@ -133,5 +133,5 @@ Contentful,trial,platforms,Moved In, "We started using it for some of our projec
 Strapi,assess,platforms,New, "We consider this as an alternative to Contentful. A more detailed assessment will be part of new projects which we will be working on"
 Builder.io,assess,platforms,New, "A solid website builder. We need to more closely assess this."
 Webflow,hold,platforms,Moved Out, "Failed during our trial stage, it has a questionable pricing model and bad developer experience."
-NodeJS,Adopt,languages & frameworks,Moved In,"Solid foundation for all verticals. It's a popular choice and the foundation for the majority of BFFs."
-Java,Adopt,languages & frameworks,Moved In,"High in demand especially in the enterprise business. It's widely in use in our core markets. The language continously evolved and has one of the best open source communities and library support in the market"
+NodeJS,adopt,languages & frameworks,Moved In,"Solid foundation for all verticals. It's a popular choice and the foundation for the majority of BFFs."
+Java,adopt,languages & frameworks,Moved In,"High in demand especially in the enterprise business. It's widely in use in our core markets. The language continously evolved and has one of the best open source communities and library support in the market"
