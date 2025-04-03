@@ -35,7 +35,7 @@ Serverless architecture,trial,techniques,No Change,Need a matching project to go
 Container security scanning,adopt,techniques,New,Automatically check containerised software for security vulnerabilities 
 Micro frontends,trial,techniques,New,Would like to assess this within a matching project.
 Rust,adopt,languages & frameworks,New,"New go to backend language for faster and more efficient and secure Backends. Clients might not be willing to invest into it yet but there are use cases in which we would pitch Rust over any other language. It's overall a very trending and promising language so we stay invested."
-PHP,adopt,languages & frameworks,No Change,Still active and buzzing in our verticals.
+PHP,hold,languages & frameworks,No Change,"We don't actively use PHP anymore. It has nearly no market share within our verticals. We are still using it as part of our tools but any net new development e.g. an API should not be done with PHP"
 Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
 Symfony ,hold,languages & frameworks,Moved Out,We prefer using Symfony for new projects.
 Axum,trial,languages & frameworks,New,Rust Web framework 
