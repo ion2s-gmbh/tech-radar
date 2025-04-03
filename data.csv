@@ -131,3 +131,4 @@ Nginx,adopt,platforms,No Change,"A high-performance web server and reverse proxy
 Phing,adopt,tools,No Change,A PHP build tool based on Apache Ant for automating development workflows
 Opencart,assess,platforms,New, "Might be an alternative to Shopware, definitely worth to assess and try this if sales acquires a client who wants to use opencart instead of Shopware"
 Contentful,trial,platforms,Moved In, "We started using it for some of our projects. It has benefits especially for enterprise use cases and it's headless. It has a higher price point in comparison to Strapi and we still need to evaluate if Strapi is a better alternative"
+Strapi,assess,platforms,New, "We consider this as an alternative to Contentful. A more detailed assessment will be part of new projects which we will be working on"
