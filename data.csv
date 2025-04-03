@@ -129,4 +129,4 @@ Git,adopt,tools,No Change,A version control system for tracking code changes and
 Apache,adopt,platforms,No Change,A widely used open-source web server software
 Nginx,adopt,platforms,No Change,"A high-performance web server and reverse proxy, often used for load balancing"
 Phing,adopt,tools,No Change,A PHP build tool based on Apache Ant for automating development workflows
-Opencart,assess,platforms, "Might be an alternative to Shopware, definitely worth to assess and try this if sales acquires a client who wants to use opencart instead of Shopware"
+Opencart,assess,platforms,New, "Might be an alternative to Shopware, definitely worth to assess and try this if sales acquires a client who wants to use opencart instead of Shopware"
