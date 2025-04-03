@@ -101,7 +101,7 @@ SonarQube,trial,tools,New,"We want to give this a more thorough try with regards
 "Gen AI (ChatGPT, Claude)",assess,tools,New,Using it in small scale/small context. Github Copilot adoption started. 
 Solr,adopt,tools,New,We are using this since a couple of years
 Typo3,adopt,platforms,No Change,One of our main offerings with regards to CMS
-Shopware,adopt,platforms,No Change,One of our main offerings with regards to shop systems
+Shopware,adopt,platforms,No Change,"One of our main offerings with regards to shop systems. It's widely adopted and has many benefits for small, medium and big clients. The plugin store offers more extensions and also allows us to sell our own plugins. Shopware is build for customization and therefore a better choice for an agency use case."
 AWS,adopt,platforms,No Change, We are using AWS and various services for more than one of our projects
 Xray,adopt,tools,No Change,"A test management tool integrated with Jira for planning, executing, and reporting on test cases"
 ISTQB Tester,adopt,techniques,No Change,Certification providing foundational knowledge in software testing principles and processes
