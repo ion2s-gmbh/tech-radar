@@ -11,7 +11,7 @@ Webpack,hold,tools,No Change,"Webpack is a module bundler. Its main purpose is t
 Vite,assess,tools,New,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
 axios,adopt,tools,New, Axios is a promise-based HTTP Client for node.js and the browser. It's a new common library being used in the industry.
 Jenkins as a deployment pipeline,hold,tools,Moved Out,"We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines will be done with Gitlab"
-Renovate,adopt,tools,"moved in","Automation to keep our dependencies up to date. We started to use it for a variety of repositories."
+Renovate,adopt,tools,"Moved In","Automation to keep our dependencies up to date. We started to use it for a variety of repositories."
 Gitlab CI Pipelines,adopt,tools,No Change,"Our current go to tool for building and running pipelines. It works well for us and has plenty of features if hosted as the open source version"
 React.js,adopt,languages & frameworks,No Change,"Widely adopted frontend framework especially in the enterprise business. Also our favorite choice for new implementations especially in the enterprise business."
 Redux,adopt,languages & frameworks,No Change,"Global state handling for React based applications, widely adopted and safe to use."
