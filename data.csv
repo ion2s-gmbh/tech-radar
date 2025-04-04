@@ -1,39 +1,39 @@
 name,ring,quadrant,status,description
 Babel,adopt,tools,No Change,The compiler for next generation JavaScript
-Grafana,trial,tools,New,Grafana is the open source analytics & monitoring solution for every database
+Grafana,adopt,tools,Moved In," Grafana has evolved into a widely adopted tool in the observability and monitoring space"
 Let's Encrypt,adopt,tools,No Change,Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge. Go to version for us right now
 OWASP Dependency-Check,assess,tools,New,We need to assess possible tools. Clients start to demand this.
 OWASP ASVS,assess,techniques,No Change,We need to assess possible tools. Clients start to demand this.
-Terraform,trial,tools,New,Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud. It's a common industry standard and we are leveraging it in several projects.
-Terragrunt,trial,tools,New,Orchestration tool for Terraform. Enhances Terraform in a way which helps us to be more efficient with our templates.
-ArgoCD,trial,tools,New,Gitops based approach to automatically deploy our apps into Kubernetes. We started to use this with one of our clients are are so far happy with it.
+Terraform,adopt,tools,Moved In,"Terraform is an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud. It's a common industry standard and we are leveraging it in several projects."
+Terragrunt,trial,tools,New,"Orchestration tool for Terraform. Enhances Terraform in a way which helps us to be more efficient with our templates."
+ArgoCD,trial,tools,New,"Gitops based approach to automatically deploy our apps into Kubernetes. We started to use this with one of our clients are are so far happy with it."
 Webpack,hold,tools,No Change,"Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset."
 Vite,assess,tools,New,"Vite (French word for ""quick"", pronounced /vit/, like ""veet"") is a new breed of frontend build tooling that significantly improves the frontend development experience. A possible better alternative for Webpack. "
 axios,adopt,tools,New, Axios is a promise-based HTTP Client for node.js and the browser. It's a new common library being used in the industry.
-Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines should be done with Gitlab
-Renovate,trial,tools,No Change,Automation to keep our dependencies up to date. We started to use it for a variety of repositories.
-Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building and running pipelines
+Jenkins as a deployment pipeline,hold,tools,Moved Out,"We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines will be done with Gitlab"
+Renovate,adopt,tools,"Moved In","Automation to keep our dependencies up to date. We started to use it for a variety of repositories."
+Gitlab CI Pipelines,adopt,tools,No Change,"Our current go to tool for building and running pipelines. It works well for us and has plenty of features if hosted as the open source version"
 React.js,adopt,languages & frameworks,No Change,"Widely adopted frontend framework especially in the enterprise business. Also our favorite choice for new implementations especially in the enterprise business."
-Redux,adopt,languages & frameworks,No Change,Global state handling for React based applications.
+Redux,adopt,languages & frameworks,No Change,"Global state handling for React based applications, widely adopted and safe to use."
 React Remix/Router,adopt,languages & frameworks,No Change,"Our favorite choice in combination with a react frontend. The fullstack approach is widely adopted and for us the primary choice for enterprise clients."
 React Next,hold,languages & frameworks,Moved Out, "Has quite some limitiations with regards to it's usage and compatibility with industry standards. Therefore we are not preferring this technology."
 Vue.js,adopt,languages & frameworks,No Change,"We have good experience with Vue and it's widely adopted nowadays. It's a bit less adopted in comparison to React and it's also more commonly used in the public sector."
 Vue Nuxt,trial,languages & frameworks,New,"We are starting to gain experience with Vue Nuxt and have a strong beleive that this is a solid choice for us if the frontend choice favors Vue for whatever reason."
 Spring Boot,assess,languages & frameworks,New,"Might help is with certain industries/clients. We will carefully observe this but would usually favor Quarkus over Spring Boot as Quarkus is build to be cloud native and has a more modern approach."
-Quarkus,assess,languages & frameworks,New,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
-GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
-gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
-Docker,adopt,platforms,No Change,Go to solution to containerize our applications
-Kubernetes,adopt,platforms,Moved In,Open Source container orchestration plattform we use in different distributions from vanilla to Rancher and AWS-EKS.
+Quarkus,assess,languages & frameworks,New,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native. We are going into an assessment phase."
+GraphQL,adopt,languages & frameworks,No Change,"We support this but want to be careful with considering this as an option for green field projects with freedom of choice. It can be benificial in the right context but is often used in the wrong context."
+gRPC,adopt,languages & frameworks,No Change,"We support this but want to be careful with considering this as an option for green field projects with freedom of choice. gRPC has it's benefits within the right context but also brings complexity. Careful assessment is required."
+Docker,adopt,platforms,No Change,"Go to solution to containerize our applications"
+Kubernetes,adopt,platforms,Moved In,"Open Source container orchestration plattform we use in different distributions from vanilla to Rancher and AWS-EKS."
 Rancher,trial,platforms,No Change,"Rancher, the open-source multi-cluster orchestration platform, lets operations teams deploy, manage and secure enterprise Kubernetes. We are using it for certain projects"
-Helm,adopt,tools,No Change,The package manager for Kubernetes
-.NET Core,assess,platforms,No Change,Might help is with certain industries/clients
-Consumer-driven contract testing,assess,techniques,No Change,We might want to assess this
-Lightweight Architecture Decision Records,adopt,techniques,No Change,Need to make this the standard for chapter and dev circle decisions. Might want to also propose this for larger clients
-Reactive architectures,trial,techniques,No Change,Need a matching project to go into a trial phase
-Serverless architecture,trial,techniques,No Change,Need a matching project to go into a trial phase
-Container security scanning,adopt,techniques,New,Automatically check containerised software for security vulnerabilities 
-Micro frontends,trial,techniques,New,Would like to assess this within a matching project.
+Helm,adopt,tools,No Change,"​Helm is an open-source package manager designed for Kubernetes, the widely used container orchestration platform. It streamlines the process of defining, installing, and managing applications within Kubernetes clusters by utilizing a packaging format known as Charts"
+.NET Core,assess,platforms,No Change,"Might help is with certain industries/clients, right now we are committing to this technology as it's usually rooted with clients who are heavily bought into the MS ecosystem. We still consider this as worth of an assessment if the right project happens to pop up."
+Consumer-driven contract testing,assess,techniques,No Change,"We might want to assess this with one of our future clients/projects"
+Lightweight Architecture Decision Records,adopt,techniques,No Change,"We have adopted this for all our Dev Chapters. We also started using it for our larger enterprise grade clients and will continue to use this."
+Reactive architectures,trial,techniques,No Change,"Need a matching project to go into a trial phase"
+Serverless architecture,trial,techniques,No Change,"Need a matching project to go into a trial phase"
+Container security scanning,adopt,techniques,New,"Automatically check containerised software for security vulnerabilities"
+Micro frontends,trial,techniques,New,"Would like to assess this within a matching project."
 Rust,adopt,languages & frameworks,New,"New go to backend language for faster and more efficient and secure Backends. Clients might not be willing to invest into it yet but there are use cases in which we would pitch Rust over any other language. It's overall a very trending and promising language so we stay invested."
 PHP,hold,languages & frameworks,No Change,"We don't actively use PHP anymore. It has nearly no market share within our verticals. We are still using it as part of our tools but any net new development e.g. an API should not be done with PHP"
 Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
