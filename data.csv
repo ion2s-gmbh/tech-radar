@@ -72,7 +72,7 @@ CloudFormation,hold,platforms,New,"We would always prefer Terraform over Cloudfo
 Github Enterprise,assess,platforms,New,"Maybe our future alternative for Gitlab? Detailed assessment needed"
 Jaeger,assess,platforms,New,We would like to assess this.
 Prometheus,adopt,platforms,"Moved In","We are very happy with Prometheus within our Clients project and would right now leverage it for future projects"
-Open Telemetry,adopt,platforms,"Moved In",Planned "Pretty much the new industry standard for tracing and very liked awithin our Clients project. We therefore would right now leverage it for future projects"
+Open Telemetry,adopt,platforms,"Moved In","Pretty much the new industry standard for tracing and very liked awithin our Clients project. We therefore would right now leverage it for future projects"
 CloudWatch,adopt,platforms,"Moved In","Easiest and best way to collect logs in an AWS setup"
 Zabbix,adopt,platforms,No Change,"Our standard for CMS/Typo3 projects"
 Grafana Loki,assess,platforms,New,We would like to assess this
