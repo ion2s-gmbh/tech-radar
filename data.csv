@@ -13,13 +13,13 @@ axios,adopt,tools,New, Axios is a promise-based HTTP Client for node.js and the 
 Jenkins as a deployment pipeline,hold,tools,Moved Out,We want to move away from Jenkins. Any existing Pipelines will be maintained but new pipelines should be done with Gitlab
 Renovate,trial,tools,No Change,Automation to keep our dependencies up to date. We started to use it for a variety of repositories.
 Gitlab CI Pipelines,adopt,tools,No Change,Current go to tool for building and running pipelines
-React.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development. 
+React.js,adopt,languages & frameworks,No Change,"Widely adopted frontend framework especially in the enterprise business. Also our favorite choice for new implementations especially in the enterprise business."
 Redux,adopt,languages & frameworks,No Change,Global state handling for React based applications.
-React Remix,adopt,languages & frameworks,No Change,One of our main choices for Frontend Development covering the full stack of development.
-React Next,trial,languages & frameworks,New, We are using this with one of our newer clients
-Vue.js,adopt,languages & frameworks,No Change,One of our main choices for Frontend Dev. Being used in our projects already.
-Vue Nuxt,trial,languages & frameworks,New,We want to try this out as soon as possible. Similar to React Remix this would help us to cover a full stack frontend development approach.
-Spring Boot,assess,languages & frameworks,New,Might help is with certain industries/clients
+React Remix/Router,adopt,languages & frameworks,No Change,"Our favorite choice in combination with a react frontend. The fullstack approach is widely adopted and for us the primary choice for enterprise clients."
+React Next,hold,languages & frameworks,Moved Out, "Has quite some limitiations with regards to it's usage and compatibility with industry standards. Therefore we are not preferring this technology."
+Vue.js,adopt,languages & frameworks,No Change,"We have good experience with Vue and it's widely adopted nowadays. It's a bit less adopted in comparison to React and it's also more commonly used in the public sector."
+Vue Nuxt,trial,languages & frameworks,New,"We are starting to gain experience with Vue Nuxt and have a strong beleive that this is a solid choice for us if the frontend choice favors Vue for whatever reason."
+Spring Boot,assess,languages & frameworks,New,"Might help is with certain industries/clients. We will carefully observe this but would usually favor Quarkus over Spring Boot as Quarkus is build to be cloud native and has a more modern approach."
 Quarkus,assess,languages & frameworks,New,"Modern alternative to Spring Boot, doesn't carry the old baggage of sprint. Cloud native."
 GraphQL,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
 gRPC,adopt,languages & frameworks,No Change,We support this but want to be careful with considering this as an option for green field projects with freedom of choice
@@ -62,8 +62,8 @@ NPM,adopt,tools,No Change,Current go to tool to handle JS packages
 PNPM,assess,tools,New,We would like to assess this in a more detailed way
 Angular,hold,languages & frameworks,No Change,We don't want to focus on this.
 Nest,hold,languages & frameworks,No Change,We don't want to focus on this.
-Svelte,assess,languages & frameworks,New,We would like to assess this
-SvelteKit,assess,languages & frameworks,New,We would like to assess this
+Svelte,assess,languages & frameworks,New,"We are starting to assess this in the context of headless CMS frontends."
+SvelteKit,assess,languages & frameworks,New,"We are starting to assess this in the context of headless CMS frontends."
 GCP,assess,platforms,New,We would like to assess this
 Azure,assess,platforms,New,We would like to assess this
 AWS CDK,assess,platforms,New,We would like to assess this
@@ -78,10 +78,10 @@ Grafana Loki,assess,platforms,New,We would like to assess this
 AWS X-Ray,assess,platforms,New,We would like to assess this
 Ansible,adopt,tools,No Change,Industry standard and go to tooling in many scenarios
 Cog,trial,tools,New,general purpose UI prototyping
-Cypress,adopt,tools,New,Part of our standard approach/offering for test automation
+Cypress,adopt,tools,New,"A very solid choice for test automation. We offer this but would not favor it if we have free choice. Playwright is our favored test automation tool"
 QA Audits,trial,techniques,New,We would like to make this one of our offerings
 Testing as a service,trial,techniques,New,We would like to make this one of our offerings
-Playwright,trial,tools,New,Part of our standard approach/offering for test automation
+Playwright,trial,tools,New,"Our standard approach/offering for test automation. It has more benefits in comparison to Cypress and therefore is our favorite choice."
 ElasticSearch,trial,tools,New,Need a more detailed trial
 DORA,assess,techniques,New,Dora Metrics to measure our effectiveness
 AAF,assess,techniques,New,Establishing an Architecture Advisory Forum to increase adoption rate across our chapters
@@ -135,3 +135,5 @@ Builder.io,assess,platforms,New, "A solid website builder. We need to more close
 Webflow,hold,platforms,Moved Out, "Failed during our trial stage, it has a questionable pricing model and bad developer experience."
 NodeJS,adopt,languages & frameworks,Moved In,"Solid foundation for all verticals. It's a popular choice and the foundation for the majority of BFFs."
 Java,adopt,languages & frameworks,Moved In,"High in demand especially in the enterprise business. It's widely in use in our core markets. The language continously evolved and has one of the best open source communities and library support in the market"
+Astro,assess,languages & frameworks,New,"Very modern framework approach for content driven sites. We will assess this more closely to extend our headless CMS experience"
+
