@@ -34,22 +34,23 @@ Reactive architectures,trial,techniques,No Change,"Need a matching project to go
 Serverless architecture,trial,techniques,No Change,"Need a matching project to go into a trial phase"
 Container security scanning,adopt,techniques,New,"Automatically check containerised software for security vulnerabilities"
 Micro frontends,trial,techniques,New,"Would like to assess this within a matching project."
-Rust,adopt,languages & frameworks,New,"New go to backend language for faster and more efficient and secure Backends. Clients might not be willing to invest into it yet but there are use cases in which we would pitch Rust over any other language. It's overall a very trending and promising language so we stay invested."
+Rust,adopt,languages & frameworks,No Change,"New go to backend language for faster and more efficient and secure Backends. Clients might not be willing to invest into it yet but there are use cases in which we would pitch Rust over any other language. It's overall a very trending and promising language so we stay invested."
 PHP,hold,languages & frameworks,No Change,"We don't actively use PHP anymore. It has nearly no market share within our verticals. We are still using it as part of our tools but any net new development e.g. an API should not be done with PHP"
-Laravel,adopt,languages & frameworks,No Change,Go to PHP Framework for us
-Symfony ,hold,languages & frameworks,Moved Out,We prefer using Symfony for new projects.
-Axum,trial,languages & frameworks,New,Rust Web framework 
-Redis,adopt,languages & frameworks,No Change,Go to technology to cache data
-MariaDB,adopt,languages & frameworks,No Change,Replacement for MySQL
-MySQL,hold,languages & frameworks,Moved Out,Use MariaDB instead
-Postgres,adopt,languages & frameworks,No Change,Favorite choice with regards to DB
-ArangoDB,hold,languages & frameworks,No Change,Had to use this within one of our projects and we don't see this fitting our usual requirements and overall direction
-MSSQL,hold,languages & frameworks,No Change,We don't want to actively use this anymore
-DDev,adopt,tools,No Change,Go to tool to handle our PHP based projects/dev environments
-Cargo,trial,tools,New,Our preferred Rust package manager
-Taskfiles,adopt,tools,No Change,Our default approach to automate local development environment (setup/build...)
-Atlas Router,adopt,tools,No Change,We want to opensource this
-contentful rs,adopt,tools,New,We want to opensource this. This library is an abstraction layer to access contentful with a Rust
+Laravel,hold,languages & frameworks,Moved Out,"Go to PHP Framework for a lot companies and also in the past for us. But are not actively persuing PHP based applications but are able and capable to take care of them."
+Symfony ,hold,languages & frameworks,Moved Out,"As with Laravel this is a commonly adopted framework and less preferred by us. Overall we are not investing in PHP anymore."
+Axum,adopt,languages & frameworks,Moved In,"The current standard Rust Web framework. We have leveraged it in projects and have a good amounf of experience to recommend it as a good choice for a Rust based API"
+Redis,adopt,languages & frameworks,No Change,"Pretty much the industry standard to cache data in web applications and APIs. Also our preferred choice."
+MariaDB,adopt,languages & frameworks,No Change,"Replacement for MySQL for many reasons. It's our default DB for CMS integrations with Typo3 but might be less favored for individual projects where Progres usually provides more features"
+MySQL,hold,languages & frameworks,Moved Out,"Use MariaDB instead, MySQL has seen it's best days and with Oracle owning it we don't want to get us locked into it anymore"
+Postgres,adopt,languages & frameworks,No Change,"Favorite choice with regards to open source RDS DBs. We have widespread experience and it's pretty much the industry standard if open source is required"
+ArangoDB,hold,languages & frameworks,No Change,"Had to use this within one of our projects and we don't see this fitting our usual requirements and overall direction"
+MSSQL,hold,languages & frameworks,No Change,"We don't want to actively use this anymore."
+DDev,adopt,tools,No Change,"Go to tool to handle our PHP based projects/dev environments, specifically our Typo3 ones."
+Cargo,trial,tools,No Change,"Our preferred Rust package manager which is also the go to one for the industry"
+Taskfiles,hold,tools,Moved Out,"Was our default approach to automate our dev setups. Since we tried out Just we have seen many benefits of Just over Task and are therefore only using Taskfiles for legacy setups"
+Just,adopt,tools,New,"Our new go to standard to automate our dev setups. Many benefits of Taskfiles and actively used within our newer projects"
+Atlas Router,adopt,tools,No Change,"Our Traefik proxy setup to route local development containers. We plan to open source this"
+contentful rs,adopt,tools,New,"We want to opensource this. This library is an abstraction layer to access contentful with a Rust"
 Python,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
 Golang,hold,languages & frameworks,Moved Out,We don't want to focus on this for net new development. We are open to use this if needed.
 RabbitMQ,trial,platforms,New,We would like to try this within the context of matching project
@@ -57,36 +58,36 @@ Kafka,trial,platforms,New,"Being used in one of our projects, we would like to g
 AWS SQS,assess,platforms,New,Want to assess this for futurue opportunities 
 AWS SNS,assess,platforms,New,Want to assess this for futurue opportunities 
 Storybook,adopt,platforms,New,Go to platform to host components
-Typescript,adopt,languages & frameworks,No Change,Preferrable usage in all our JS based codebases
-NPM,adopt,tools,No Change,Current go to tool to handle JS packages
-PNPM,assess,tools,New,We would like to assess this in a more detailed way
+Typescript,adopt,languages & frameworks,No Change,"Preferrable usage in all our JS based codebases"
+NPM,adopt,tools,No Change,"Current go to tool to handle JS packages"
+PNPM,assess,tools,New,"We would like to assess this in a more detailed way"
 Angular,hold,languages & frameworks,No Change,We don't want to focus on this.
 Nest,hold,languages & frameworks,No Change,We don't want to focus on this.
 Svelte,assess,languages & frameworks,New,"We are starting to assess this in the context of headless CMS frontends."
 SvelteKit,assess,languages & frameworks,New,"We are starting to assess this in the context of headless CMS frontends."
 GCP,assess,platforms,New,We would like to assess this
 Azure,assess,platforms,New,We would like to assess this
-AWS CDK,assess,platforms,New,We would like to assess this
-CloudFormation,assess,platforms,New,We would like to assess this
-Github Enterprise,assess,platforms,New,Future alternative for Gitlab? Detailed assessment needed
+AWS CDK,assess,platforms,New,"We would like to assess this as it may have certain advantages"
+CloudFormation,hold,platforms,New,"We would always prefer Terraform over Cloudformation to stay cloud agnostic."
+Github Enterprise,assess,platforms,New,"Maybe our future alternative for Gitlab? Detailed assessment needed"
 Jaeger,assess,platforms,New,We would like to assess this.
-Prometheus,trial,platforms,New,Planned trial for one of our clients
-Open Telemetry,trial,platforms,New,Planned trial for one of our clients
-CloudWatch,trial,platforms,New,Planned trial for one of our clients
-Zabbix,adopt,platforms,New,Started to see this as the new standard for one of our verticals
+Prometheus,adopt,platforms,"Moved In","We are very happy with Prometheus within our Clients project and would right now leverage it for future projects"
+Open Telemetry,adopt,platforms,"Moved In","Pretty much the new industry standard for tracing and very liked awithin our Clients project. We therefore would right now leverage it for future projects"
+CloudWatch,adopt,platforms,"Moved In","Easiest and best way to collect logs in an AWS setup"
+Zabbix,adopt,platforms,No Change,"Our standard for CMS/Typo3 projects"
 Grafana Loki,assess,platforms,New,We would like to assess this
 AWS X-Ray,assess,platforms,New,We would like to assess this
 Ansible,adopt,tools,No Change,Industry standard and go to tooling in many scenarios
-Cog,trial,tools,New,general purpose UI prototyping
-Cypress,adopt,tools,New,"A very solid choice for test automation. We offer this but would not favor it if we have free choice. Playwright is our favored test automation tool"
+Cog,trial,tools,New,"general purpose UI prototyping"
+Cypress,adopt,tools,No Change,"A very solid choice for test automation. We offer this but would not favor it if we have free choice. Playwright is our favored test automation tool"
 QA Audits,trial,techniques,New,We would like to make this one of our offerings
 Testing as a service,trial,techniques,New,We would like to make this one of our offerings
-Playwright,trial,tools,New,"Our standard approach/offering for test automation. It has more benefits in comparison to Cypress and therefore is our favorite choice."
+Playwright,trial,tools,No Change,"Our standard approach/offering for test automation. It has more benefits in comparison to Cypress and therefore is our favorite choice."
 ElasticSearch,trial,tools,New,Need a more detailed trial
 DORA,assess,techniques,New,Dora Metrics to measure our effectiveness
-AAF,assess,techniques,New,Establishing an Architecture Advisory Forum to increase adoption rate across our chapters
+AAF,adopt,techniques,Moved In,"Established an Architecture Advisory Forum to increase adoption rate across our chapters"
 DDD,assess,techniques,New,Domain Driven Design as a consulting service for projects
-C4 with Structerizr,trial,tools,New,C4 Documentation as the new standard for our bigger projects
+C4 with Structerizr,adopt,tools,Moved In,"C4 Documentation as the new standard for our bigger projects and our internal projects"
 Arc42,assess,techniques,New,We would like to assess this
 SemVer,adopt,techniques,Moved In,One of our new standards for a cleaner and automated version management of our code bases
 Conventional Commits,adopt,techniques,Moved In,One of our new standards for a cleaner and automated version management of our code bases
@@ -121,8 +122,8 @@ Livewire,adopt,languages & frameworks,No Change,"A Laravel framework for buildin
 Filament,assess,languages & frameworks,No Change,A framework for creating admin dashboards and management panels in Laravel
 CSS,adopt,languages & frameworks,No Change,A style sheet language used to design the layout and appearance of HTML elements
 SCSS,adopt,languages & frameworks,No Change,"A CSS preprocessor adding variables, nested rules, and functions for maintainable styles"
-ChakraUI,trial,languages & frameworks,No Change,"A component library for React, offering accessible and customizable UI elements"
-Prisma ORM,assess,languages & frameworks,No Change,A modern ORM for Node.js and TypeScript that simplifies database management
+ChakraUI,trial,languages & frameworks,New,"A component library for React, offering accessible and customizable UI elements"
+Prisma ORM,assess,languages & frameworks,New,A modern ORM for Node.js and TypeScript that simplifies database management
 Quasar,trial,languages & frameworks,No Change,"A Vue.js framework for building responsive, high-performance web and mobile applications"
 Git,adopt,tools,No Change,A version control system for tracking code changes and collaborating in software projects
 Apache,adopt,platforms,No Change,A widely used open-source web server software
