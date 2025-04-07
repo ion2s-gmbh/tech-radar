@@ -137,4 +137,5 @@ Webflow,hold,platforms,Moved Out, "Failed during our trial stage, it has a quest
 NodeJS,adopt,languages & frameworks,Moved In,"Solid foundation for all verticals. It's a popular choice and the foundation for the majority of BFFs."
 Java,adopt,languages & frameworks,Moved In,"High in demand especially in the enterprise business. It's widely in use in our core markets. The language continously evolved and has one of the best open source communities and library support in the market"
 Astro,assess,languages & frameworks,New,"Very modern framework approach for content driven sites. We will assess this more closely to extend our headless CMS experience"
-
+CCM19,adopt,tools,No Change,A GDPR compliant cookie constent manager which we use for certain clients.
+Cookiebot,adopt,tools,No Change,"A GDPR compliant cookie constent manager which we use for certain clients. We are in a partnership with Cookiebot and therefor offer a tighter consulting and integration service with Cookiebot"
